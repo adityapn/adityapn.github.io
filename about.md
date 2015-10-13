@@ -3,9 +3,8 @@ layout: page
 title: About
 permalink: /about/
 ---
+Currently I'm working as Software Developer at Ola cabs in Bangalore , India . Previously I worked at Housing.com and Knolskape.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I have a BS degree in Information Technology [ 2009-13 ] from SRM University , Chennai , India. My skill set here.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+You can reach me at: [pnaditya@gmail.com]
