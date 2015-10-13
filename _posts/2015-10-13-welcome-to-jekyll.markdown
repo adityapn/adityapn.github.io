@@ -1,17 +1,27 @@
 ---
 layout: post
-title:  "About Scalability and Optimization"
+title:  "Common commands"
 date:   2015-09-27 11:46:33
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+List of common commands that I come across ( I update this list periodically )
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Error to install Nokogiri on OSX Yosemite
+------------------
 
-Jekyll also offers powerful support for code snippets:
+brew install libxml2 libxslt libiconv
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+Create mysql user and grant login access
+------------------
+CREATE USER ''@'%' IDENTIFIED BY '';
+grant all privileges on *.* to @'localhost' IDENTIFIED by '' with grant option;
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+Storing session information in database in Rails
+------------------
+Add “gem activerecord-session_store” to Gemfile and run this command (rails generate active_record:session_migration) to create db tables
+In session_store.rb change to active_record : Rails.application.config.session_store :active_record_store, key: 'kjsadkjad#$@#090(*&^#!@)'
+do rake db:migrate after this
+
+Building a jar with maven along with dependencies
+------------------
+Here is the answer that describes how to build a jar with maven [link](http://stackoverflow.com/questions/574594/how-can-i-create-an-executable-jar-with-dependencies-using-maven)
