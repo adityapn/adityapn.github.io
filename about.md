@@ -4,15 +4,15 @@ title: Aditya Astro Vision
 ---
 
 <div class="post">
-  <h1 class="pageTitle">About Naganath Sharma</h1>
-  <!-- img src="{{ '/assets/img/touring.jpg' | prepend: site.baseurl }}" alt="" --> 
-  <p>
+	<h1 class="pageTitle">About Naganath Sharma</h1>
+	<!-- img src="{{ '/assets/img/touring.jpg' | prepend: site.baseurl }}" alt="" --> 
+	<p>
     Panchangam Naganath Sharma is an Astrologer from Anantapur, Andhra Pradesh, India. He has 40+ years of experience in Astrology, he has a degree from Viswa Jyothi Vidya Sangha, Kolkata, India.
   </p>
   
   <p>
     He gave a prediction to Ex-Chief Minister of Andhra Pradesh Nandamuri Taraka Rama Rao (NTR) about success in 1983 election. He has vast knowledge in vedic predictive astrology and its applications in modern lines. He follows B.V. Raman and K.P Systems.
-  </p>  
+  </p>	
 
   <p>
     As his family name suggests he belongs to a family of Astrology and occult sciences. His father was a Veda Pandit and astrologer during 1948 - 2005. One of his forefathers by name Vasantha Pandithulu  had given a prediction to Tippu Sultan (Ruler of the Kingdom of Mysore) during 1780-1790 about his success in a war.
