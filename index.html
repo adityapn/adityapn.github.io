@@ -1,0 +1,46 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Gouthami's Salary Calculator</title>
+        <link rel="stylesheet" href="/css/calc.css">
+    </head>
+      <body>
+        <main style="min-height: 600px;">
+          <div class="sidead sidead_left"></div>
+          <h1 class="logo">Gouthami's Salary Calculator</h1>
+          <form id="f1">
+            <fieldset class="values">
+              What is <input type="text" size="3" autofocus="autofocus"> percent
+              <nobr>of <input type="text" size="7">?</nobr>
+            </fieldset>
+            <fieldset class="results">
+              <input type="submit" value="Cheppu">
+              <input type="text" size="6" readonly="readonly"><span class="hide">&nbsp;%</span>
+            </fieldset>
+          </form>
+          <form id="f2">
+            <fieldset class="values">
+              <input type="text" size="5"> is what percent
+              <nobr>of <input type="text" size="5">?</nobr>
+            </fieldset>
+            <fieldset class="results">
+              <input type="submit" value="Cheppu">
+              <input type="text" size="6" readonly="readonly"><span>&nbsp;%</span>
+            </fieldset>
+          </form>
+          <form id="f3">
+            <fieldset class="values">
+              Entha hike adugutunnadu<br>
+              <nobr>current salary <input type="text" size="5"></nobr>
+              <nobr>expected salary <input type="text" size="5">?</nobr>
+            </fieldset>
+            <fieldset class="results"><br class="remove">
+              <input type="submit" value="Cheppu">
+              <input type="text" size="6" readonly="readonly"><span>&nbsp;%</span>
+            </fieldset>
+          </form>
+          <div id="cc">&nbsp;</div>
+          <script src="/js/percentagecalculator.js?2018"></script>
+        </main>
+    </body>
+</html>
